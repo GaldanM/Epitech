@@ -1,0 +1,12 @@
+.page-header {
+    background: url("/resources/images/earphone-header.jpg");
+    background-size: cover;
+}
+
+.img-pres {
+    width: 869px;
+}
+
+.case-presentation {
+    background-color: #E0E0E0;
+}

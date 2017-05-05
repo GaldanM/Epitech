@@ -1,0 +1,12 @@
+How it works :
+
+OptiCalc is a simple scientific calcultator. You can use both numeric pad or buttons in the graphic interface.
+
+There are two displays :
+
+	- the one on the top show the actual operation so can remember the number you previously entered, 
+	- the bottom one shows the actual number you're writting.
+
+"Enter" key is used as "equal", you can only use it when both numbers and the operator are correct.
+
+It only manages numbers with 17 digits, it also manages the floating numbers.

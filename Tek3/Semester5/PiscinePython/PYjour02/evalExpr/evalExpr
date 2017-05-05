@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import sys
+import calcExpr
+
+calcExpr = calcExpr.parserExpr()
+
+result = calcExpr.parse_file(sys.argv[1])
+
+if result == calcExpr:
+   print(result.diagnostic.get_content())
+   exit(1)
+
+values = result.exprs
+
+for value in values:
+    print(value)

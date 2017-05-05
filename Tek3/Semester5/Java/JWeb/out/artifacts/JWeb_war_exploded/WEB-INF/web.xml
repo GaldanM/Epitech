@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <listener>
+        <listener-class>Config.InitDAOFactory</listener-class>
+    </listener>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/Includes/Common/taglibs.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>
+
+    <!-- UTF-8 -->
+    <filter>
+        <filter-name>Set Character Encoding</filter-name>
+        <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ignore</param-name>
+            <param-value>false</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>Set Character Encoding</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!-- /UTF-8 -->
+
+    <!-- RESTRICT -->
+    <filter>
+        <filter-name>RestrictionFilter</filter-name>
+        <filter-class>Controller.Filter.RestrictionFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>RestrictionFilter</filter-name>
+        <url-pattern>/restrict/*</url-pattern>
+    </filter-mapping>
+    <!-- /RESTRICT -->
+
+    <!-- SMARTPHONE -->
+    <servlet>
+        <servlet-name>Smartphone</servlet-name>
+        <servlet-class>Controller.Servlet.SmartphoneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Smartphone</servlet-name>
+        <url-pattern>/smartphone.jsp</url-pattern>
+    </servlet-mapping>
+    <!-- /SMARTPHONE -->
+
+    <!-- EARPHONE -->
+    <servlet>
+        <servlet-name>Earphone</servlet-name>
+        <servlet-class>Controller.Servlet.EarphoneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Earphone</servlet-name>
+        <url-pattern>/earphone.jsp</url-pattern>
+    </servlet-mapping>
+    <!-- /EARPHONE -->
+
+    <!-- ACCESSORIES -->
+    <servlet>
+        <servlet-name>Accessories</servlet-name>
+        <servlet-class>Controller.Servlet.AccessoriesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Accessories</servlet-name>
+        <url-pattern>/accessories.jsp</url-pattern>
+    </servlet-mapping>
+    <!-- /ACCESSORIES -->
+
+    <!-- LOG FRAG -->
+    <servlet>
+        <servlet-name>FragLog</servlet-name>
+        <servlet-class>Controller.Servlet.FragLogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FragLog</servlet-name>
+        <url-pattern>/fragLog</url-pattern>
+    </servlet-mapping>
+    <!-- /LOG FRAG -->
+
+    <!-- SIGNIN FRAG -->
+    <servlet>
+        <servlet-name>FragSignin</servlet-name>
+        <servlet-class>Controller.Servlet.FragSigninServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FragSignin</servlet-name>
+        <url-pattern>/fragSignin</url-pattern>
+    </servlet-mapping>
+    <!-- /SIGNIN FRAG -->
+
+    <!-- CART FRAG -->
+    <servlet>
+        <servlet-name>CartSignin</servlet-name>
+        <servlet-class>Controller.Servlet.FragCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartSignin</servlet-name>
+        <url-pattern>/fragCart</url-pattern>
+    </servlet-mapping>
+    <!-- /CART FRAG -->
+
+    <!-- MYACCOUNT -->
+    <servlet>
+        <servlet-name>MyAccount</servlet-name>
+        <servlet-class>Controller.Servlet.MyAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyAccount</servlet-name>
+        <url-pattern>/myAccount</url-pattern>
+    </servlet-mapping>
+    <!-- /MYACCOUNT -->
+
+    <!-- INSCRIPTION -->
+    <servlet>
+        <servlet-name>Inscription</servlet-name>
+        <servlet-class>Controller.Servlet.InscriptionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Inscription</servlet-name>
+        <url-pattern>/inscription.jsp</url-pattern>
+    </servlet-mapping>
+    <!-- /INSCRIPTION -->
+
+    <!-- CONNECTION -->
+    <servlet>
+        <servlet-name>Connection</servlet-name>
+        <servlet-class>Controller.Servlet.ConnectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Connection</servlet-name>
+        <url-pattern>/connection.jsp</url-pattern>
+    </servlet-mapping>
+    <!-- /CONNECTION -->
+
+    <!-- DISCONNECTION -->
+    <servlet>
+        <servlet-name>Disconnection</servlet-name>
+        <servlet-class>Controller.Servlet.DisconnectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Disconnection</servlet-name>
+        <url-pattern>/disconnect</url-pattern>
+    </servlet-mapping>
+    <!-- /DISCONNECTION -->
+
+    <!-- UPDATE -->
+    <servlet>
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Controller.Servlet.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/restrict/Update</url-pattern>
+    </servlet-mapping>
+    <!-- /UPDATE -->
+
+    <!-- ADDCART -->
+    <servlet>
+        <servlet-name>AddCart</servlet-name>
+        <servlet-class>Controller.Servlet.AddToCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCart</servlet-name>
+        <url-pattern>/restrict/addToCart</url-pattern>
+    </servlet-mapping>
+    <!-- /ADDCART -->
+
+    <!-- CheckoutServlet -->
+    <servlet>
+        <servlet-name>Checkout</servlet-name>
+        <servlet-class>Controller.Servlet.CheckoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Checkout</servlet-name>
+        <url-pattern>/restrict/Checkout</url-pattern>
+    </servlet-mapping>
+    <!-- CheckoutServlet -->
+
+    <!-- ShippingServlet -->
+    <servlet>
+        <servlet-name>Shipping</servlet-name>
+        <servlet-class>Controller.Servlet.ShippingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shipping</servlet-name>
+        <url-pattern>/restrict/Shipping</url-pattern>
+    </servlet-mapping>
+    <!-- ShippingServlet -->
+
+</web-app>

@@ -1,0 +1,96 @@
+﻿<Window x:Class="MyWindowsMediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWindowsMediaPlayer"
+        mc:Ignorable="d"
+        Icon="taskbar.ico"
+        Title="MyWindowsMediaPlayer" Height="774.5" Width="1120.5" ResizeMode="NoResize" >
+    <Grid MinHeight="500" MinWidth="500">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="625*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="48*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75*"/>
+                <ColumnDefinition Width="481*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <ListBox x:Name="listBox1" Background="White" Grid.Row="0" Grid.Column="0" SelectionChanged="listBox_SelectionChanged" Grid.ColumnSpan="2" Margin="0,0,947,0">
+                <Button x:Name="button" Content="Library" Width="140" Click="buttonCurrent_Click"/>
+                <Button x:Name="button1" Width="140" Content="Musics" Click="buttonMusic_Click"/>
+                <Button x:Name="button2" Content="Videos" Width="140" Click="buttonVideo_Click" RenderTransformOrigin="0.519,1.364"/>
+                <Button x:Name="ImageBtn" Content="Images" Width="140" Click="buttonImage_Click" RenderTransformOrigin="0.519,1.364"/>
+
+                <TreeView x:Name="TreeView"  BorderThickness="0">
+                </TreeView>
+            </ListBox>
+            <MediaElement x:Name="videoDisplay" Grid.Row="0" Grid.Column="1" LoadedBehavior="Manual" MediaOpened="videoDisplay_MediaOpened"  MediaEnded="videoDisplay_MediaEnded" Visibility="Visible" Margin="10,0,0,0"/>
+            <ListView x:Name="listBox" Grid.Row="0" Grid.Column="1" GridViewColumnHeader.Click="listView_click">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                        <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Time}"/>
+                        <GridViewColumn Header="Album" DisplayMemberBinding="{Binding Album}"/>
+                        <GridViewColumn Header="Artiste" DisplayMemberBinding="{Binding Artiste}"/>
+                    </GridView>
+                </ListView.View>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <EventSetter Event="MouseDoubleClick" Handler="ListViewItem_click" />
+                    </Style>
+                </ListView.ItemContainerStyle>
+            </ListView>
+            <TextBox Tag="This is the Watermark Text." x:Name="textBox" Height="30" TextChanged="TextBox_TextChanged" TextWrapping="Wrap" Margin="7,363,8,239" Width="131" VerticalScrollBarVisibility="Auto"/>
+            <Button x:Name="button3" Click="addToplaylist_Click" Margin="10,464,10,117" RenderTransformOrigin="0.5,0.5">
+                <ContentControl Content="Add to playlist"/>
+            </Button>
+            <Button x:Name="remove_playlist" Content="Remove playlist" Click="remove_playlist_Click" Margin="10,563,10,25"/>
+            <Button x:Name="AddPlaylist" Content="Create Playlist" Click="AddPlaylist_Click" Margin="7,416,10,166"/>
+            <Button x:Name="removeFromPlaylist" Content="Delete from playlist" Margin="10,513,10,67" Click="removeFromPlaylist_Click"/>
+        </Grid>
+        <Slider x:Name="sliderVideo" Grid.Row="1" Grid.Column="0" ValueChanged="sliderVideo_ValueChanged" />
+        <Slider x:Name="sliderVolume" Grid.Row="2" Grid.Column="0" ValueChanged="sliderVolume_ValueChanged" Margin="0,0,10,0" HorizontalAlignment="Right" Width="138" Maximum="1.0" Minimum="0.0" Value="1.0"/>
+        <Grid Grid.Row="3" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="buttonPlay" Click="buttonPlay_Click" Grid.Row="0" Grid.Column="0">
+                <Image Source="icon\play.png"/>
+            </Button>
+            <Button x:Name="buttonPause" Grid.Row="0" Grid.Column="1" Click="buttonPause_Click">
+                <Image Source="icon\pause.png"/>
+            </Button>
+            <Button x:Name="buttonStop" Grid.Row="0" Grid.Column="2" Click="buttonStop_Click">
+                <Image Source="icon/stop.png"/>
+            </Button>
+            <Button x:Name="buttonBack" Grid.Row="0" Grid.Column="3" Click="buttonBack_Click">
+                <Image Source="icon\back.png"/>
+            </Button>
+            <Button x:Name="buttonNext" Grid.Row="0" Grid.Column="4" Click="buttonNext_Click">
+                <Image Source="icon\next.png"/>
+            </Button>
+            <Button x:Name="buttonStorage" Grid.Row="0" Grid.Column="5" Click="buttonStorage_Click">
+                <Image Source="icon\storage.png"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

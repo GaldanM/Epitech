@@ -1,0 +1,9 @@
+Which components :
+
+I got inspired by the Windows calculator which provide a similar graphical interface.
+
+I used two JPanel, one for the buttons and one for the displays, of course there is a "root" JPanel to manage both JPanel.
+
+Displays are JTextField that are not editable.
+
+Buttons are JButtons with Listeners.

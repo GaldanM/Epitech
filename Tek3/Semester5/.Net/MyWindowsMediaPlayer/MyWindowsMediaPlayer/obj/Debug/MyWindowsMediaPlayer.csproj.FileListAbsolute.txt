@@ -1,0 +1,59 @@
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.exe.config
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.exe
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.pdb
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\App.g.cs
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer_MarkupCompile.cache
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer_MarkupCompile.lref
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MainWindow.baml
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.g.resources
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.Properties.Resources.resources
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.exe
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.pdb
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\taglib-sharp.dll
+C:\Users\Freezy\Desktop\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.exe.config
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.exe
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.pdb
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.exe
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.pdb
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\taglib-sharp.dll
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\App.g.cs
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer_MarkupCompile.cache
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer_MarkupCompile.lref
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MainWindow.baml
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.g.resources
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.Properties.Resources.resources
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.csproj.GenerateResource.Cache
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.exe.config
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.exe
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\MyWindowsMediaPlayer.pdb
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\taglib-sharp.dll
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\bin\Debug\policy.2.0.taglib-sharp.config
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MainWindow.g.cs
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\CreatePlaylist.g.cs
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\SelectItem.g.cs
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\App.g.cs
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer_MarkupCompile.cache
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer_MarkupCompile.lref
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MainWindow.baml
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\CreatePlaylist.baml
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\SelectItem.baml
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.g.resources
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.Properties.Resources.resources
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.csproj.GenerateResource.Cache
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.exe
+C:\documents\olivier.medec\Mes documents\Projects\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\MyWindowsMediaPlayer.pdb
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\MyWindowsMediaPlayer.exe.config
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\CreatePlaylist.g.cs
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\SelectItem.g.cs
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\CreatePlaylist.baml
+C:\Users\gmoul\Documents\GitHub\MyWindowsMediaPlayer\MyWindowsMediaPlayer\obj\Debug\SelectItem.baml

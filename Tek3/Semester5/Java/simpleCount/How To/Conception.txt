@@ -1,0 +1,17 @@
+What about the conception ?
+
+The conception of OptiCalc is pretty simple. As Swing allow to easily build a graphical interface and link it to a class, I create the CalcWindow class that extends from JFrame.
+
+This class will contains all the widgets that OptiCalc need to work properly (JPanel, JButtons, JtextField...)
+
+Some JButtons are bind to a key thanks to InputMap and ActionMap classes.
+
+For each widget, there is a listener which make the code really simple to read. I also created some genereic function for, for example, the numeric listeners or operator listeners.
+
+Displays are formatted by using the getFormattedString method which take a string as parameter and return a string that has a space every third digit (not for digit on decimal part).
+
+Decimal numbers are displayed with the perfect precision thanks to DecimalFormat class which allow to "parse" our floating number and remove unnecessary zeros.
+
+You can only enter seventeen digits, else, OptiCalc will beep.
+
+Thanks for using OptiCalc !

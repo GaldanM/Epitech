@@ -1,0 +1,24 @@
+.panel-checkout {
+    margin-top: 20%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.btn-checkout {
+    float: right;
+    width: 20%;
+}
+
+.panel-container {
+    margin-top: 17%;
+    background-color: rgba(128, 128, 128, 0.14)
+}
+
+.panel-option-items {
+    padding: 26px;
+}

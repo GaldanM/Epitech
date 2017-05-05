@@ -1,0 +1,87 @@
+body {
+    overflow-x: hidden;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0%;
+    min-width: 750px;
+}
+
+li {
+    list-style: none;
+}
+
+.homeNavBar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.page-header {
+    padding: 16px;
+    margin: 0px !important;
+    background: url("/resources/images/header-smartphone.PNG") no-repeat center;
+    background-size:cover;
+    height: 100%;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+.case-presentation {
+    height: 100%;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding-top: 11%;
+    border-bottom: 1px solid rgba(47, 64, 86, 0.22);
+}
+
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+.container-footer {
+    padding: 20px 29px 0px;
+}
+
+.smartPhone-nav-bar {
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+}
+
+.navbar-inverse {
+    background-color:  #009688;
+    border-color:  #009688;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #e3f2fd !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e3f2fd !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #00796b !important;
+}
+
+.img-pres {
+    position: absolute;
+    right: 0;
+}
+
+.text-container {
+    margin-top: 104px;
+}
