@@ -1,0 +1,12 @@
+$> mpic++ DS_Exercise04.cpp -o ./DS_Exercise04 && mpiexec -n 11 ./DS_Exercise04
+Slave3 finished to sum : 3.14159e+08
+Slave4 finished to sum : 3.14159e+08
+Slave5 finished to sum : 3.14159e+08
+Slave6 finished to sum : 3.14159e+08
+Slave7 finished to sum : 3.14159e+08
+Slave9 finished to sum : 3.14159e+08
+Slave2 finished to sum : 3.14159e+08
+Slave8 finished to sum : 3.14159e+08
+Slave10 finished to sum : 3.14159e+08
+Slave1 finished to sum : 3.14159e+08
+PI is approximately : 3.141592653590426

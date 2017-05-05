@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidByExample</string>
+    <string name="hello_world">Hello World !</string>
+    <string name="button_one">Button One</string>
+    <string name="button_two">Button Two</string>
+    <string name="button_three">Button Three</string>
+    <string name="button_four">Button Four</string>
+    <string name="button_five">Button Five</string>
+    <string name="button_six">Button Six</string>
+    <string name="button_seven">Button Seven</string>
+    <string name="button_eight">Button Eight</string>
+    <string name="button_nine">Button Nine</string>
+</resources>

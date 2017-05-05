@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="int_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+    <array name="float_array">
+        <item>1.5</item>
+        <item>1.618</item>
+        <item>3.14159</item>
+    </array>
+</resources>

@@ -1,0 +1,18 @@
+$>  mpic++ DS_Exercise01.cpp -o ./DS_Exercise01 && mpiexec -n 3 ./DS_Exercise01
+Processor rank : 1
+MOULINNEUF Galdan 2927686
+Number of processors : 3
+Processor rank : 0
+Processor rank : 2
+
+$> mpic++ DS_Exercise01.cpp -o ./DS_Exercise01 && mpiexec -n 8 ./DS_Exercise01
+MOULINNEUF Galdan 2927686
+Number of processors : 8
+Processor rank : 0
+Processor rank : 1
+Processor rank : 2
+Processor rank : 3
+Processor rank : 4
+Processor rank : 5
+Processor rank : 6
+Processor rank : 7

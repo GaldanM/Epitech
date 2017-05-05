@@ -1,0 +1,37 @@
+Question 1 :
+A)	10 + 50 + 40 = 100ns ;
+B)	220 + 220 + 40 = 640ns ;
+C)	Infinite
+
+
+Question 2 :
+	(50 + 10) 	- invocation, parameter
+	+ 70 		- body
+	+ 50 		- return
+	= 180ns ;
+	
+	
+Question 6 :
+A)	(50 + 10)				- invocation, parameter
+	+ 20					- init vars
+	+ ((n + 1) * 10) 		- loop guard
+	+ (n * 20 + 50 + 20) 	- loop body
+	+ 50 ;					- return
+
+B)	(50 + 20)						- invocation, parameters
+	+ (10 + 10) 					- init vars
+	+ ((n + 1) * 10) 				- loop guard
+	+ (n * (50 + 10 + 20 + 20) 		- loop body
+	+ 50 ;							- return
+
+C)	(50 + 10) 				- invocation, parameter
+	(10 + 10) 				- init vars
+	+ ((n + 1) * 10) 		- loop guard 1
+	+ (n * (20 				- loop body 1
+		+ ((m + 1) * 10) 	- loop guard 2
+		+ m * (130 + 20))	- llop body 2
+	+ 20) 					- loop body 1
+	+ 50 ;					- return
+
+	
+Question 7 :

@@ -1,0 +1,14 @@
+$> mpic++ DS_Exercise02a.cpp -o ./DS_Exercise02a && mpiexec -n 3 ./DS_Exercise02a
+Slave1 finished to sum : 2531297
+Slave2 finished to sum : 2521149
+Master summed result from all slaves as : 5052446
+
+$> mpic++ DS_Exercise02a.cpp -o ./DS_Exercise02a && mpiexec -n 8 ./DS_Exercise02a
+Slave1 finished to sum : 722932
+Slave2 finished to sum : 724470
+Slave3 finished to sum : 722602
+Slave4 finished to sum : 720291
+Slave5 finished to sum : 722068
+Slave6 finished to sum : 719153
+Slave7 finished to sum : 720676
+Master summed result from all slaves as : 5052192

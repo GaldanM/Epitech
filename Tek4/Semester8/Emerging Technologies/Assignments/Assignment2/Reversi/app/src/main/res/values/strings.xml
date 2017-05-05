@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reversi</string>
+    <string name="white">WHITE</string>
+    <string name="black">BLACK</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+    <string name="end_game">Game finished !</string>
+    <string name="blacks_turn">BLACKS TURN</string>
+    <string name="whites_turn">WHITES TURN</string>
+</resources>

@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/player_board_layout"/>
+
+    <LinearLayout
+        android:id="@+id/gameLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <theleatherguy.reversi.BoardGame
+            android:id="@+id/boardGame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include layout="@layout/control_panel_layout"/>
+    </LinearLayout>
+
+</LinearLayout>

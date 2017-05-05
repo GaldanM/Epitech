@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DistanceTracker</string>
+    <string name="default_speed">- KM/H</string>
+    <string name="default_dist">- KM</string>
+    <string name="disp_speed">%1$s KM/H</string>
+    <string name="disp_dist">%1$s KM</string>
+    <string name="current_speed">Current Speed</string>
+    <string name="distance">Distance</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="duration">Duration</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="no_distance">Graph is displayed when at least a kilometer has been covered.</string>
+    <string name="summary_title">Summary</string>
+</resources>
