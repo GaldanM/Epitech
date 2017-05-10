@@ -86,10 +86,12 @@ clean:
 			@echo -e "\033[1;32m\n\t\t\t\t\t\t\t\t\t==== Cleaning ... ====\n\033[0m"
 
 			$(RM) $(OBJS)
+			$(FOLD_LIB) ; make clean
 			@echo -e "\033[1;32m\n\t\t\t\t\t\t\t\t\t==== Clean done ====\n\033[0m"
 
 fclean:			clean
 			$(RM) $(NAME)
+			$(FOLD_LIB) ; make fclean
 			@echo -e "\033[1;32m\n\t\t\t\t\t\t\t\t\t==== Fclean done ====\n\033[0m"
 re:			fclean all
 
