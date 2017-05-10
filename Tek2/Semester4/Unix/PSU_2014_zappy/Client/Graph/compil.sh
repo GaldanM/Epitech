@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -Werror *.cpp -lsfml-window -lsfml-graphics -lsfml-system
